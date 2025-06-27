@@ -1,0 +1,8 @@
+{
+  "label": "Tutorial - Basics",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "This tutorial provides a quick and comprehensive guide to mastering the fundamental concepts of both the client-side and server-side. you'll learn the most important basics needed to get started with developing client-side functionality (such as interacting with the UI, handling user inputs, etc.) and server-side logic (like data processing, API interactions, etc.). This balanced approach ensures you have a solid foundation for both ends of development."
+  }
+}

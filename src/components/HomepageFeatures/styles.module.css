@@ -1,0 +1,79 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureCard {
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Specific color classes for different feature titles */
+.textPurple {
+  color: #8a4fff !important;
+}
+
+.textRed {
+  color: #ff6b6b !important;
+}
+
+.textBlue {
+  color: #4299e1 !important;
+}
+
+/* Ensure consistent text color in dark mode */
+[data-theme='dark'] & {
+  .textPurple {
+    color: #8a4fff !important;
+  }
+
+  .textRed {
+    color: #ff6b6b !important;
+  }
+
+  .textBlue {
+    color: #4299e1 !important;
+  }
+}
+
+.featureSvg {
+  max-width: 200px;
+  height: 200px;
+  margin-bottom: 15px;
+}
+
+.technologiesOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.technologiesList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.techBadge {
+  background-color: white;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  margin: 2px;
+}
