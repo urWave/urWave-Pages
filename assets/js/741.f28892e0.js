@@ -1,0 +1,1 @@
+(self.webpackChunkur_wave_doc=self.webpackChunkur_wave_doc||[]).push([[741],{5741:()=>{}}]);

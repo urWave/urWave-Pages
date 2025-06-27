@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkur_wave_doc=self.webpackChunkur_wave_doc||[]).push([[235],{8552:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-pages","id":"default"}')}}]);
